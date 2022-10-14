@@ -1,0 +1,154 @@
+ 
+/*
+$main-color: #FFC107;
+$main-color: #f44336;
+$main-color: #4CAF50;
+$main-color: #64B5F6;
+*/
+/* ------------------------------
+
+common
+
+------------------------------ */
+/* ----- fonts ----- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap");
+/* ----- text defaults ----- */
+body {
+  color: black;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-smooth: subpixel-antialiased;
+}
+
+html {
+  --main-color: #FFC107;
+}
+
+/* ----- title defaults ----- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #fafafc;
+  margin-bottom: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+body{
+  background: #FDFDFF;
+}
+ 
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 24px 0;
+}
+
+.nav-container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+
+.left-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-item{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-item:hover{
+  color: #3861FB;
+  cursor: pointer;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.right-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.right-item-container:hover {
+  background: #A6B0C322;
+  cursor: pointer;
+}
+
+.right-item-container span{
+  font-weight: bold;
+  color: #A6B0C3;
+}
+
+.search-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  background: #A6B0C322;
+  border-radius: 8px;
+}
+
+.search-container:hover{
+  cursor: pointer;
+}
+
+
+.search-container span{
+  font-weight: bold;
+  color: #A6B0C3;
+  min-width: 160px;
+}
+
+.search-container .right-container{
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  background: #A6B0C3;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+
+}
